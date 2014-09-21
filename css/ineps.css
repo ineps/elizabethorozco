@@ -5,41 +5,22 @@
 	border-radius: 8px 8px;
 	margin-bottom: 5px;
 }
-.blog-hooponopono
+.etiqueta-blog
 {
-	background:  -webkit-linear-gradient(#fff, #BFBF30);
-	background: -o-linear-gradient(#fff, #BFBF30);
+	background: -webkit-linear-gradient(#fff, #E5C85A);
+	background: -o-linear-gradient(#fff, #E5C85A);
+	background: -moz-linear-gradient(#fff, #E5C85A);
 }
-.blog-bendiciones
+.etiqueta-blog:hover
 {
-	background:  -webkit-linear-gradient(#fff, #D49D40);
-	background: -o-linear-gradient(#fff, #D49D40);
-}
-.blog-destiny
-{
-	background:  -webkit-linear-gradient(#fff, #FFFF40);
-	background: -o-linear-gradient(#fff, #FFFF40);
-}
-.blog-tiempo
-{
-	width: 300px;
-	background:  -webkit-linear-gradient(#fff, #00C0C0);
-	background: -o-linear-gradient(#fff, #00C0C0);
-}
-.blog-kabbala
-{
-	background:  -webkit-linear-gradient(#fff, #FF80FF);
-	background: -o-linear-gradient(#fff, #FF80FF);
-}
-.blog-dia
-{
-	background:  -webkit-linear-gradient(#fff, #FF8080);
-	background: -o-linear-gradient(#fff, #FF8080);
+	background: -webkit-linear-gradient(#fff, #E1B64D);
+	background: -o-linear-gradient(#fff, #E1B64D);
+	background: -moz-linear-gradient(#fff, #E1B64D);
 }
 .blog-a
 {
 	font-size: 20px;
-	color: #D49D40;
+	color: #7C391C;
 }
 /*Sección de blog*/
 .tabla-blog
