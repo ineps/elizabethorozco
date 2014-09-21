@@ -1,0 +1,61 @@
+.blogs 
+{
+	width: 300px;
+	text-align: center;
+	border-radius: 8px 8px;
+	margin-bottom: 5px;
+}
+.blog-hooponopono
+{
+	background:  -webkit-linear-gradient(#fff, #BFBF30);
+	background: -o-linear-gradient(#fff, #BFBF30);
+}
+.blog-bendiciones
+{
+	background:  -webkit-linear-gradient(#fff, #D49D40);
+	background: -o-linear-gradient(#fff, #D49D40);
+}
+.blog-destiny
+{
+	background:  -webkit-linear-gradient(#fff, #FFFF40);
+	background: -o-linear-gradient(#fff, #FFFF40);
+}
+.blog-tiempo
+{
+	width: 300px;
+	background:  -webkit-linear-gradient(#fff, #00C0C0);
+	background: -o-linear-gradient(#fff, #00C0C0);
+}
+.blog-kabbala
+{
+	background:  -webkit-linear-gradient(#fff, #FF80FF);
+	background: -o-linear-gradient(#fff, #FF80FF);
+}
+.blog-dia
+{
+	background:  -webkit-linear-gradient(#fff, #FF8080);
+	background: -o-linear-gradient(#fff, #FF8080);
+}
+.blog-a
+{
+	font-size: 20px;
+	color: #D49D40;
+}
+/*Sección de blog*/
+.tabla-blog
+{
+	background-color: #EDCA56;
+	color: #260002;
+	border: none;
+}
+.blog-h3
+{
+	font-size: 20px;
+	text-align: center;
+	background-color: transparent;
+}
+.img-productos
+{
+	width: 130px;
+	height: 130px;
+}

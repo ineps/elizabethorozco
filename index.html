@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Elizabeth Orozco</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/skin.css">
+    <link rel="stylesheet" type="text/css" href="css/ineps.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+   
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54870820-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script>
+		$(document).ready(function(){
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:false,
+				prevBu:false,
+				nextBu:false,
+				playBu:false,
+				duration:700,
+				preset:'fade',
+				pagination:'.pags',
+				pagNums:false,
+				slideshow:7000,
+				numStatus:false,
+				banners:false,// fromLeft, fromRight, fromTop, fromBottom
+				waitBannerAnimation:false,
+				progressBar:false
+			})
+			jQuery('#mycarousel').jcarousel({
+				horisontal: true,
+				wrap:'circular',
+				scroll:1,
+				easing:'easeInOutBack',
+				animation:1200
+			});
+		});
+		
+				
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});	
+			
+ // final #back-top first	 
+	</script>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+  
+    
+ <style type="text/css">
+        
+
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body,td,th {
+	color: #000;
+}
+body {
+	background-image: url(images/fondo%20web.png);
+	background-color: #FFF;
+}
+-->
+</style><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body oncontextmenu="return false" onkeydown="return false">
+  <!--==============================header=================================-->
+  
+  
+  <div class="header">
+  
+  
+  
+  <div class="fondoyoutube3">
+      
+      
+        
+       	 	<div class="logo ">
+       	  <img src="images/letraeli2.PNG"  width="650" height="100">
+ 
+        </div>
+<!--===============================================================-->
+        <div class="logoperso">
+              <img src="images/letraperso.png" width="370" height="40">
+         </div>
+ <img src="images/slogan2.png" width="600" height="42">
+ </div>
+
+   
+ 
+          
+        	<div class="linea">			
+  </div><!--Close "Heading" Div-->
+
+         <!-- Dark Menu Begin -->
+        <ul class="dark_menu">
+            <li><a href="index.html" class="selected">Inicio</a></li>
+            <li>
+                <a href="quiensoy.html" >¿Quien Soy?</a>
+                <!-- Sub Menu Begin -->
+            </li>
+            
+          <li class="color">
+                <a href="#">Productos</a>
+                <!-- Sub Menu Begin -->
+                <ul>
+                  <li><a href="productos.html">Barajas</a></li>
+                    <li><a href="destyni.html">Libro Dest&iacute;ny</a></li>
+                    <li><a href="productos1.html">Libros</a></li>
+                    <li><a href="mapamental.html">Mapa Mental</a></li>
+                    
+                </ul>
+                <!-- Sub Menu End -->
+          </li>
+            <li class="color">
+                <a href="portfolio.html">Testimonios</a>
+               
+            </li>
+            <li class="color"><a href="seminario.html">Seminario</a>
+            <!-- Sub Menu Begin -->
+              
+                <!-- Sub Menu End -->
+            </li>
+            
+          <li class="color"><a href="multimedia.html">Multimedia</a></li>
+          <li class="color"><a href="contacto.html">Contacto</a></li>
+          <li class="color"><a href="blog.html">Blog</a></li>
+        </ul>
+        <!-- Dark Menu End -->
+    </div>
+ 
+<div id="slide">
+<div class="linea">			
+  </div><!--Close "Heading" Div-->  		
+<div class="slider">
+                <ul class="items">
+                    <li><img src="images/slide-1.jpg" width="421" alt=""  /></li>
+                    <li><img src="images/slide-2.jpg" width="421" alt=""  /></li>
+                    <li><img src="images/slide-3.jpg" width="421" alt="" /></li>
+                    <li><img src="images/slide-4.jpg" width="421" alt="" /></li>
+                    <li><img src="images/slide-5.jpg" width="421" alt="" /></li>
+                </ul>
+    </div>
+            <ul class="pags">
+                <li><a href="#"><strong>0</strong>1</a></li>
+                <li><a href="#"><strong>0</strong>2</a></li>
+                <li><a href="#"><strong>0</strong>3</a></li>
+                <li><a href="#"><strong>0</strong>4</a></li>
+                <li><a href="#"><strong>0</strong>5</a></li>
+            </ul>	
+    </div>
+</div>
+  </div>   
+<!--==============================content================================-->
+
+	
+            
+            
+<section id="content">
+    
+ <div id="back-top"> <a href="#header-row"> </a> </div>  
+		      
+					<div class="linea">			
+					</div><!--Close "Heading" Div-->
+                    
+	
+  
+  
+      <!--========================notiE=======================================-->
+
+  
+  
+                    <div  class="diplomado">
+                    
+                    <div class="botonimg"><br> 
+                   
+                    <img src="images/notieo.jpg" >
+                     </div>
+                    </div>
+                   
+			
+<!--==============================canal youtube=================================-->
+
+	<div class="notie">
+      
+      <div class="page1-row1 pad-1">
+      <div class="col-11">
+                  
+                    <div class="wrap bot-2">
+                      <div class="extra-wrap"> <img src="http://www.elizabethorozco.com.mx/blog-imagenes/productos.jpg" alt="nuestros productos" class="img-border img-indent img-productos">
+                        <p><strong  class="link" >NUESTROS PRODUCTOS</strong> <br>
+                        </p>
+                        <div class="extra-wrapl"> Ven y conoce la variedad de nuestros productos, herramientas que te ayudaran a transformar tu vida.<a href="https://www.facebook.com/media/set/?set=a.447270468660504.108094.187714564616097&type=3" target="_blank" class="link-1 link-1-pad">Leer m&aacute;s</a></div>
+                      </div>
+        </div>
+        
+                    <div class="wrap bot-2">
+                        <div class="extra-wrap">
+                        <img src="http://www.elizabethorozco.com.mx/blog-imagenes/libro.jpg" alt="" class="img-productos img-border img-indent">
+                            <p><strong class="link">DESTINY LIBRO QUE CAMBIA TU VIDA</strong><br>
+<div class="extra-wrapl">
+Conoce mas de Ti con tu Libro personalizado Destiny, adquierelo ya y comienza a trabajar desde adentro de Ti </p>                    
+<br>        <a href="http://www.elizabethorozco.com.mx/destiny/" target="_blank"  class="link-1 link-1-pad">Leer m&aacute;s</a>
+         </div>
+          </div>        
+        </div>
+      </div>
+       
+           
+  <!--===============================================================-->
+         
+           <div class="col-11">
+                  
+                    <div class="wrap bot-2">
+                        <div class="extra-wrap">
+                          <img src="images/page4-img1.jpg" alt="" class="img-productos img-border img-indent">
+                          <p><strong class="link">BARAJAS HO&acute;OPONOPONO</strong><br>
+                           <div class="extra-wrapl"> 
+                          Una gran herramienta para conectar con tu niño interior con tu inconsciente ,así lograras comunicarte desde tu adentro y así comenzaras a recibir las respuestas correctas.</p>
+                      <a href="https://www.facebook.com/media/set/?set=a.247339075320312.68199.187714564616097&type=3" target="_blank" class="link-1 link-1-pad">Leer m&aacute;s</a>      </div>                  </div>
+                    </div>
+                    
+                    <div class="wrap bot-2">
+
+                        <div class="extra-wrap">
+                          <img src="http://www.elizabethorozco.com.mx/blog-imagenes/terapia-personologia.png" alt="" class=" img-productos img-border img-indent">
+                          <p><strong class="link">TERAPIAS CON ELIZABETH OROZCO</strong><br>
+                          <div class="extra-wrapl"> Terapias de Personologia y Biodescodificacion aprende a sanar tu vida desde tu interior elizabethbeautylife: conoce el poder que hay en ti.
+                            <p></p>
+                             <a href="https://www.facebook.com/events/515684521898710/" target="_blank" class="link-1 link-1-pad">Leer m&aacute;s</a></div>
+
+             
+             </div>
+                    </div>
+           </div>
+            </div>
+              </div><!--Col-11-->
+              
+              
+              <!--===============================================================-->
+ <div class="linea">			
+					</div><!--Close "Heading" Div-->
+      
+              <div class="fondoyoutube2">
+      
+        
+       	<div class="perfil2 bordelat">
+            	
+      <img src="images/uno.JPG"> 	
+        </div>
+<!--===============================================================-->
+        <div class="perfil bordelat">
+         <!--  <a href="http://perfilgratuito.hol.es/"><img src="images/dos.JPG"></a> -->
+          <div class="blogs blog-hooponopono">
+            <a class="blog-a" href="http://ho-oponoponoeo.blogspot.mx/" target="_blank">Ho'oponopono</a>
+          </div>
+          <!-- Reto Bendiciones -->
+          <div class="blogs blog-bendiciones">
+            <a class="blog-a" href="http://bendicionesyprosperidareto90dias.blogspot.mx/2014/08/bibliografia-reto-de-bendiciones-y.html" target="_blank">Reto Bendiciones</a>
+          </div>
+          <!-- Destiny -->
+          <div class="blogs blog-destiny">
+            <a class="blog-a" href="http://destinyporelizabethorozco.blogspot.mx/wp-admin" target="_blank">Destiny</a>
+          </div>
+          <!-- Energía del Tiempo -->
+          <div class="blogs blog-tiempo">
+            <a class="blog-a" href="http://energiadiadiaeo.blogspot.mx/p/inicio.html" target="_blank">Energía del Tiempo<a>
+          </div>
+          <!-- Kabbala -->
+          <div class="blogs blog-kabbala">
+            <a class="blog-a" href="http://kabbalaheo.blogspot.mx/p/eventos.html" target="_blank">Kabbala</a>
+          </div>
+          <!-- Energía del día -->
+          <div class="blogs blog-dia">
+            <a class="blog-a" href="http://energiadiadiaeo.blogspot.mx/" target="_blank">Energía del día</a>
+          </div>
+        </div>
+        
+    <!--===============================================================-->
+        
+        <div class="megusta">
+            
+          <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fdestinyeo&amp;width=330&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:330px; height:258px;" allowTransparency="true"></iframe>
+        </div>      
+     
+  </div>
+  
+  <div class="linea">			
+					</div><!--Close "Heading" Div-->
+                    
+                      <!--===============================================================-->
+  
+  
+  <div  class="diplomado">
+                    
+                    <div class="botonimg"><br><a href="http://diplomadodepersonologiaporelizabethorozco.wordpress.com/"target="_blank" title="click aqui"><img src="images/Diplomado-de-Personologia.jpg"></a></div>
+                    </div>
+                    <div class="linea">			
+					</div><!--Close "Heading" Div-->
+			
+<!--==============================canal youtube=================================-->
+
+           <!--===============================================================-->
+           
+           <div class="fondoyoutube">
+      
+      
+        
+       	<div class="col-1 bordecuadro colums">
+       	  <iframe width="330" height="360" src="http://www.youtube.com/embed/Iuov8mEwjkg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+     
+        </div>
+<!--===============================================================-->
+        <div class="col-2 bordecuadro">
+             <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fdestinyeo&amp;width=330&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:330px; height:360px;" allowTransparency="true"></iframe>
+         </div>
+        
+    <!--===============================================================-->
+        
+            <div class="col-3 bordecuadro">
+            
+                <iframe width="330" height="360" src="http://www.youtube.com/embed/FdDE1tI5mow?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+            </div>      
+    
+  </div>
+           
+           
+            <div class="linea">			
+					</div><!--linea-->
+			
+<!--==============================canal youtube=================================-->
+
+	
+
+        	
+        
+<!--===============================================================-->
+       <div  class="diplomado">
+                    
+                    <div class="botonimg"><br> 
+                    <a href="https://www.facebook.com/destinyeo/events" target="_blank" title="Click Aqui"> <img  src="images/SEMINARIOS.jpg"></a>
+                    
+                     </div>
+                    </div>
+                    <div class="linea">			
+					</div><!--Close "Heading" Div-->
+                    
+                    <div class="final pad-1">
+        
+       	<div class="perfil0 bordelat">
+       <div class="letra">  <b>Seminario Kabbala</b> </div>
+       <br>
+        <img width="325px" height="110px" src="images/caballo.jpg">
+        <br>
+       <div class="extra-wrapl">
+        Kabbala tecnologia para el alma‏ los 72 nombres de Dios‏. 
+        <a href="https://www.facebook.com/events/1436941143206724/" target="_blank" class="link-1 link-1-pad">Leer m&aacute;s</a>
+        </div>
+        </div>
+        
+           <!--===============================================================--> 
+        <div class="perfil0 bordelat">
+        
+          <div class="letra">  <b>Leyes Universales</b> </div>
+              <!--===============================================================-->  
+                    
+           <br>
+        <img width="325px" height="110px" src="images/juegovida.jpg">
+        <br>
+       <div class="extra-wrapl">
+        Las Leyes Universales nos enseñan como cuidar Tu Kairos...Tiempo de Dios. 
+        <a href="https://www.facebook.com/events/661155060613401/" target="_blank" class="link-1 link-1-pad">Leer m&aacute;s</a>
+        </div>
+         </div>
+        
+    <!--===============================================================-->
+        
+            <div class="perfil0 ">
+            <div class="letra">  <b>Reto 90 días</b> </div>
+         <br>
+        <img width="325px" height="110px" src="images/bendiciones.jpg">
+        <br>
+       <div class="extra-wrapl">
+        Las personas que ya lo iniciaron FELICIDADES y recuerden que tu VOLUNTAD te permita dia a dia llegar a Tu Meta.
+        <a href="https://www.facebook.com/media/set/?set=a.601542566566626.1073741846.187714564616097&type=3" target="_blank" class="link-1 link-1-pad">Leer m&aacute;s</a>
+        </div>
+              
+             </div>
+               </div>     
+                    
+                    <div class="linea">			
+					</div><!--Close "Heading" Div-->    
+                    
+                        <!--===============================================================-->
+<br>
+<br>
+                   
+      <div class="linea">			
+					</div><!--Close "Heading" Div--> 
+<div class="final pad-1">
+        
+       	<div class="perfil0 bordelat">
+       <div class="letra">  <b>SIGUENOS</b> </div>
+        <div class="imagenes" >
+    <a href="https://twitter.com/EOrozcoDestiny"  target="_blank"><img src="images/TWITTER.PNG" align="center"> </a>	<a href="https://www.facebook.com/destinyeo" target="_blank"> <img src="images/facebook.PNG"> </a><a href="https://www.youtube.com/user/elizabethdestiny1/videos" target="_blank"><img src="images/youtube.PNG"></a><a href="mailto:circulointernoeo@gmail.com" target="_blank"><img src="images/gmail.PNG"></a></div></div>
+<!--===============================================================-->
+        <div class="perfil0 bordelat">
+           <div class="letra">  <b>CONTACTANOS</b> </div>
+           
+            <div class="letra-1">
+             (55)  2098  1045-63638544 <BR>
+            San Luis Potosi 199 Primer piso <br>
+            Col. Roma Norte <br>
+            M&eacute;xico DF <br>
+            CP. 06700<br>
+            email : circulointernoeo@gmail.com </div>
+         </div>
+        
+    <!--===============================================================-->
+        
+            <div class="perfil0 ">
+            <div class="letra">  <b>UBICACI&Oacute;N</b> </div>
+         <div align="center">
+           <iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=San+Luis+Potos%C3%AD+199,+Roma+Norte,+Cuauht%C3%A9moc,+Mexico+City,+Mexico+&amp;aq=&amp;sll=16.130262,-94.306641&amp;sspn=45																									.847311,59.853516&amp;t=p&amp;doflg=ptk&amp;ie=UTF8&amp;hq=&amp;hnear=San+Luis+Potos%C3%AD+199,+Roma+Norte,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+D.F.,+Mexico&amp;ll=19.413254,-99.164572&amp;spn=0.008095,0.012832&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+           <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=San+Luis+Potos%C3%AD+199,+Roma+Norte,+Cuauht%C3%A9moc,+Mexico+City,+Mexico+&amp;aq=&amp;sll=16.130262,-94.306641&amp;sspn=45.847311,59.853516&amp;t=p&amp;doflg=ptk&amp;ie=UTF8&amp;hq=&amp;hnear=San+Luis+Potos%C3%AD+199,+Roma+Norte,+Cuauht%C3%A9moc,+06700+Ciudad+de+M%C3%A9xico,+D.F.,+Mexico&amp;ll=19.413254,-99.164572&amp;spn=0.008095,0.012832&amp;z=15&amp;iwloc=A" style="color:#000;text-align:right" target="_blank">Ver Mapa mas grande</a></small> </div>
+
+                
+            </div>  
+              
+             </div>
+    <!--===============================================================-->
+       <div class="linea">			
+					</div><!--Close "Heading" Div--> 
+                
+      </div><!--==header===-->
+  </div><!--==container===-->
+</section> 
+<!--==============================piedepagina=================================-->
+               
+</body>
+</html>
